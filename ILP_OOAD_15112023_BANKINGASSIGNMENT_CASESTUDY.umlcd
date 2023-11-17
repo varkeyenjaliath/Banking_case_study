@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QwD0kIRFEe6NkOZJHBLUVg">
+  <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UGchkIRFEe6NkOZJHBLUVg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_V9-q8IRFEe6NkOZJHBLUVg" sourceAnchor="260.0,0.0" targetAnchor="236.0,99.0" target="_V9_SAIRFEe6NkOZJHBLUVg" source="_V-WeYIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8Z9oIRFEe6NkOZJHBLUVg"/>
+    <nameVisual xmi:id="_V9-q8YRFEe6NkOZJHBLUVg" text="">
+      <visualProperties xmi:id="_WB6IsIRFEe6NkOZJHBLUVg" position="1.363008638634028,55.91219972782754"/>
+    </nameVisual>
+    <sourceRole xmi:id="_V9-q8oRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="product" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8QzsIRFEe6NkOZJHBLUVg"/>
+      <visualProperties xmi:id="_WB46lYRFEe6NkOZJHBLUVg" position="-18.093683643174018,-67.82337785163037"/>
+      <visibility xmi:id="_V9-q84RFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9-q9IRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_V9-q9YRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8Z9oYRFEe6NkOZJHBLUVg"/>
+      <visualProperties xmi:id="_WB6vwIRFEe6NkOZJHBLUVg" position="2.734311127787578,144.35475559605536"/>
+      <visibility xmi:id="_V9-q9oRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9-q94RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_V-GmwIRFEe6NkOZJHBLUVg" sourceAnchor="0.0,27.0" targetAnchor="0.0,59.0" superClass="_V-WeYIRFEe6NkOZJHBLUVg" subClass="_V-K4MIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8GboIRFEe6NkOZJHBLUVg"/>
+    <bendpoints xmi:id="_WB3scIRFEe6NkOZJHBLUVg" sourceX="-10" targetX="-1095" targetY="301"/>
+    <bendpoints xmi:id="_WB4TgIRFEe6NkOZJHBLUVg" sourceX="-10" sourceY="-301" targetX="-1095"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_V-H04IRFEe6NkOZJHBLUVg" source="_V-WeYIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8by0YRFEe6NkOZJHBLUVg"/>
+    <stereotypes xmi:id="_V-JqEIRFEe6NkOZJHBLUVg" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8cZ4IRFEe6NkOZJHBLUVg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_V-JDAIRFEe6NkOZJHBLUVg" text=""/>
+    <sourceRole xmi:id="_V-JDAYRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8by0oRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-JqEoRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-JqEYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_V-JDAoRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="serviceList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8T3AoRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-KRIYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-KRIIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_V-MtYIRFEe6NkOZJHBLUVg" source="_V-PwsIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8bLwIRFEe6NkOZJHBLUVg"/>
+    <stereotypes xmi:id="_V-N7g4RFEe6NkOZJHBLUVg" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8by0IRFEe6NkOZJHBLUVg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_V-N7gIRFEe6NkOZJHBLUVg" text=""/>
+    <sourceRole xmi:id="_V-N7gYRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8bLwYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-PJoYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-PJoIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_V-N7goRFEe6NkOZJHBLUVg" aggregationKind="NONE" name="accountList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8SB0YRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-PJo4RFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-PJooRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_V-S0AIRFEe6NkOZJHBLUVg" sourceAnchor="289.0,0.0" targetAnchor="0.0,59.0" superClass="_V-WeYIRFEe6NkOZJHBLUVg" subClass="_V-TbEIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8KGAYRFEe6NkOZJHBLUVg"/>
+    <bendpoints xmi:id="_WB46kIRFEe6NkOZJHBLUVg" sourceY="-10" targetX="-434" targetY="104"/>
+    <bendpoints xmi:id="_WB46kYRFEe6NkOZJHBLUVg" sourceX="319" sourceY="-10" targetX="-115" targetY="104"/>
+    <bendpoints xmi:id="_WB46koRFEe6NkOZJHBLUVg" sourceX="319" sourceY="-114" targetX="-115"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_V-4p4IRFEe6NkOZJHBLUVg" sourceAnchor="652.0,40.0" targetAnchor="0.0,59.0" superClass="_V-WeYIRFEe6NkOZJHBLUVg" subClass="_V-6fEIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NwYYRFEe6NkOZJHBLUVg"/>
+    <bendpoints xmi:id="_WB46k4RFEe6NkOZJHBLUVg" sourceX="167" targetX="-115" targetY="683"/>
+    <bendpoints xmi:id="_WB46lIRFEe6NkOZJHBLUVg" sourceX="167" sourceY="-683" targetX="-115"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ULhO0IRFEe6NkOZJHBLUVg" name="BankUtility">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UGfk4IRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_ULhO0YRFEe6NkOZJHBLUVg" position="123.0,84.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ULhO0oRFEe6NkOZJHBLUVg" label="+"/>
+    <operations xmi:id="_ULhO04RFEe6NkOZJHBLUVg" name="main" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UGu1cIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_ULhO1IRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_ULhO1YRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ULhO1oRFEe6NkOZJHBLUVg" name="args">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UGu1cYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_ULhO14RFEe6NkOZJHBLUVg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ULhO2IRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UyKYEIRFEe6NkOZJHBLUVg" name="AccountConfiguration">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHhfoYRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_UyK_IIRFEe6NkOZJHBLUVg" position="62.0,-111.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UyK_IYRFEe6NkOZJHBLUVg" label="+"/>
+    <operations xmi:id="_UyK_IoRFEe6NkOZJHBLUVg" name="createCustomerAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwe9EYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyK_I4RFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyK_JIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyK_JYRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwfkIIRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyK_JoRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyK_J4RFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwe9EoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_KIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_KYRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UyK_KoRFEe6NkOZJHBLUVg" name="productList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwe9E4RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_K4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_LIRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyK_LYRFEe6NkOZJHBLUVg" name="createAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwgLMYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyK_LoRFEe6NkOZJHBLUVg" label="-"/>
+      <cardinality xmi:id="_UyK_L4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyK_MIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwtmkIRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyK_MYRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyK_MoRFEe6NkOZJHBLUVg" name="productList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwgLMoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_M4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_NIRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyK_NYRFEe6NkOZJHBLUVg" name="displayCustomer" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwhZUIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyK_NoRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyK_N4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UyK_OIRFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwhZUYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_OYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_OoRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyK_O4RFEe6NkOZJHBLUVg" name="successfulAccountCreation" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwtmkYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyK_PIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyK_PYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UyK_PoRFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwtmkoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_P4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_QIRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UyK_QYRFEe6NkOZJHBLUVg" name="account">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwtmk4RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyK_QoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyK_Q4RFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UyQesIRFEe6NkOZJHBLUVg" name="ManageAccountService">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHitwYRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_UyQesYRFEe6NkOZJHBLUVg" position="638.0,-130.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UyQesoRFEe6NkOZJHBLUVg" label="+"/>
+    <operations xmi:id="_UyQes4RFEe6NkOZJHBLUVg" name="transactionBill" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwj1kYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyQetIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyQetYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UyQetoRFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwj1koRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQet4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQeuIRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyQeuYRFEe6NkOZJHBLUVg" name="manageAccounts" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwkcoIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyQeuoRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyQeu4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyQevIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwlDsIRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyQevYRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyQevoRFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwkcoYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQev4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQewIRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyQewYRFEe6NkOZJHBLUVg" name="depositMoney" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwuNoIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyQewoRFEe6NkOZJHBLUVg" label="-"/>
+      <cardinality xmi:id="_UyQew4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyQexIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwuNooRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyQexYRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyQexoRFEe6NkOZJHBLUVg" name="account">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwuNoYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQex4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQeyIRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyQeyYRFEe6NkOZJHBLUVg" name="withdrawMoney" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwu0sIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyQeyoRFEe6NkOZJHBLUVg" label="-"/>
+      <cardinality xmi:id="_UyQey4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyQezIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwu0soRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyQezYRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyQezoRFEe6NkOZJHBLUVg" name="account">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwu0sYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQez4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQe0IRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyQe0YRFEe6NkOZJHBLUVg" name="displayAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwvbwIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_UyQe0oRFEe6NkOZJHBLUVg" label="-"/>
+      <cardinality xmi:id="_UyQe04RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UyQe1IRFEe6NkOZJHBLUVg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwvbwYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQe1YRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQe1oRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UyQe14RFEe6NkOZJHBLUVg" name="account">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwvbwoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyQe2IRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyQe2YRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UyWlUIRFEe6NkOZJHBLUVg" name="ProductConfiguration">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHj74YRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_UyWlUYRFEe6NkOZJHBLUVg" position="-403.0,-92.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UyWlUoRFEe6NkOZJHBLUVg" label="+"/>
+    <operations xmi:id="_UyWlU4RFEe6NkOZJHBLUVg" name="createService" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uve3gIRFEe6NkOZJHBLUVg"/>
+      <stereotypes xmi:id="_UyWlVIRFEe6NkOZJHBLUVg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UvgFoIRFEe6NkOZJHBLUVg"/>
+      </stereotypes>
+      <visibility xmi:id="_UyWlVYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyWlVoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyWlV4RFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwoHAYRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyWlWIRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UyWlWYRFEe6NkOZJHBLUVg" name="createProduct" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwoHAoRFEe6NkOZJHBLUVg"/>
+      <stereotypes xmi:id="_UyWlWoRFEe6NkOZJHBLUVg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwouEIRFEe6NkOZJHBLUVg"/>
+      </stereotypes>
+      <visibility xmi:id="_UyWlW4RFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_UyWlXIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyWlXYRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwpVIIRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyWlXoRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyWlX4RFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwoHA4RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyWlYIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyWlYYRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UyWlYoRFEe6NkOZJHBLUVg" name="createProductServiceList" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwp8MYRFEe6NkOZJHBLUVg"/>
+      <stereotypes xmi:id="_UyWlY4RFEe6NkOZJHBLUVg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwqjQIRFEe6NkOZJHBLUVg"/>
+      </stereotypes>
+      <visibility xmi:id="_UyWlZIRFEe6NkOZJHBLUVg" label="-"/>
+      <cardinality xmi:id="_UyWlZYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UyWlZoRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwqjQYRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_UyWlZ4RFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UyWlaIRFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwp8MoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_UyWlaYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_UyWlaoRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V9_SAIRFEe6NkOZJHBLUVg" name="Account" associationsIn="_V9-q8IRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V9_SAYRFEe6NkOZJHBLUVg" position="1657.0,-245.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V9_SAoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V9_SA4RFEe6NkOZJHBLUVg" name="accountNo">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8PlkIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V9_SBIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9_SBYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V9_SBoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V9_SB4RFEe6NkOZJHBLUVg" name="balance">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8QMoIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V9_SCIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9_SCYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V9_SCoRFEe6NkOZJHBLUVg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V9_SC4RFEe6NkOZJHBLUVg" name="product">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8QzsIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V9_SDIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9_SDYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V9_SDoRFEe6NkOZJHBLUVg" name="Product">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfqcYRFEe6NkOZJHBLUVg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V9_SD4RFEe6NkOZJHBLUVg" name="Account">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8D_YIRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V9_SEIRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V9_SEYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V9_SEoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V9_SE4RFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8EmdYRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V9_SFIRFEe6NkOZJHBLUVg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UweWAIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V9_SFYRFEe6NkOZJHBLUVg" name="accountNo">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8EmcIRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V9_SFoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V9_SF4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V9_SGIRFEe6NkOZJHBLUVg" name="balance">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8EmcYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V9_SGYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V9_SGoRFEe6NkOZJHBLUVg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V9_SG4RFEe6NkOZJHBLUVg" name="product">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8EmcoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V9_SHIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V9_SHYRFEe6NkOZJHBLUVg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfqcYRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V-K4MIRFEe6NkOZJHBLUVg" name="CurrentAccount" generalizations="_V-GmwIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwm44IRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V-LfQIRFEe6NkOZJHBLUVg" position="548.0,329.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V-LfQYRFEe6NkOZJHBLUVg" label="+"/>
+    <operations xmi:id="_V-LfQoRFEe6NkOZJHBLUVg" name="CurrentAccount">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8FNgIRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V-LfQ4RFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V-LfRIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-LfRYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V-LfRoRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8FNhoRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V-LfR4RFEe6NkOZJHBLUVg" name="CurrentAccount">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_Uwm44IRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V-LfSIRFEe6NkOZJHBLUVg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8FNgYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-LfSYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-LfSoRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-LfS4RFEe6NkOZJHBLUVg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8FNgoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-LfTIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-LfTYRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-LfToRFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8FNg4RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-LfT4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-LfUIRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V-PwsIRFEe6NkOZJHBLUVg" name="Customer" associationsOut="_V-MtYIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V-PwsYRFEe6NkOZJHBLUVg" position="538.0,492.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V-PwsoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V-Pws4RFEe6NkOZJHBLUVg" name="customerCode">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8RawIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-PwtIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-PwtYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-PwtoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V-Pwt4RFEe6NkOZJHBLUVg" name="customerName">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8SB0IRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-PwuIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-PwuYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-PwuoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V-Pwu4RFEe6NkOZJHBLUVg" name="accountList">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8SB0YRFEe6NkOZJHBLUVg"/>
+      <stereotypes xmi:id="_V-PwvIRFEe6NkOZJHBLUVg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8So4IRFEe6NkOZJHBLUVg"/>
+      </stereotypes>
+      <visibility xmi:id="_V-PwvYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-PwvoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-Pwv4RFEe6NkOZJHBLUVg" name="ArrayList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V-PwwIRFEe6NkOZJHBLUVg" name="Customer">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8GboYRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V-PwwYRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V-PwwoRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-Pww4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V-PwxIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8HCtIRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V-PwxYRFEe6NkOZJHBLUVg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfDYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V-PwxoRFEe6NkOZJHBLUVg" name="customerCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8GbooRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-Pwx4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-PwyIRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-PwyYRFEe6NkOZJHBLUVg" name="customerName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8HCsIRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-PwyoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-Pwy4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-PwzIRFEe6NkOZJHBLUVg" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8HCsYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-PwzYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-PwzoRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V-TbEIRFEe6NkOZJHBLUVg" name="LoanAccount" generalizations="_V-S0AIRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwiAYIRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V-TbEYRFEe6NkOZJHBLUVg" position="910.0,169.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V-TbEoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V-TbE4RFEe6NkOZJHBLUVg" defaultValue="0.3" name="chequeDepositCharge">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8TP8IRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-TbFIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-TbFYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-TbFoRFEe6NkOZJHBLUVg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V-TbF4RFEe6NkOZJHBLUVg" name="LoanAccount">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8I34IRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V-TbGIRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V-TbGYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-TbGoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V-TbG4RFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8I35oRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V-TbHIRFEe6NkOZJHBLUVg" name="LoanAccount">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwiAYIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V-TbHYRFEe6NkOZJHBLUVg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8I34YRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-TbHoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-TbH4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-TbIIRFEe6NkOZJHBLUVg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8I34oRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-TbIYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-TbIoRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-TbI4RFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8I344RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-TbJIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-TbJYRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V-WeYIRFEe6NkOZJHBLUVg" name="Product" associationsOut="_V9-q8IRFEe6NkOZJHBLUVg _V-H04IRFEe6NkOZJHBLUVg" subclassedBy="_V-GmwIRFEe6NkOZJHBLUVg _V-S0AIRFEe6NkOZJHBLUVg _V-4p4IRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfqcYRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V-WeYYRFEe6NkOZJHBLUVg" position="1633.0,-4.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V-WeYoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V-WeY4RFEe6NkOZJHBLUVg" name="productCode">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8T3AIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-WeZIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-WeZYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-WeZoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V-WeZ4RFEe6NkOZJHBLUVg" name="productName">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8T3AYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-WeaIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-WeaYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-WeaoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V-Wea4RFEe6NkOZJHBLUVg" name="serviceList">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8T3AoRFEe6NkOZJHBLUVg"/>
+      <stereotypes xmi:id="_V-WebIRFEe6NkOZJHBLUVg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8UeEIRFEe6NkOZJHBLUVg"/>
+      </stereotypes>
+      <visibility xmi:id="_V-WebYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-WeboRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-Web4RFEe6NkOZJHBLUVg" name="ArrayList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V-WecIRFEe6NkOZJHBLUVg" name="Product">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8KGAoRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V-WecYRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V-WecoRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-Wec4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V-WedIRFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8LUJYRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V-WedYRFEe6NkOZJHBLUVg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHfqcYRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V-WedoRFEe6NkOZJHBLUVg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8LUIIRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-Wed4RFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-WeeIRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-WeeYRFEe6NkOZJHBLUVg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8LUIYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-WeeoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-Wee4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-WefIRFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8LUIoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-WefYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-WefoRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V-6fEIRFEe6NkOZJHBLUVg" name="SavingsMaxAccount" generalizations="_V-4p4IRFEe6NkOZJHBLUVg">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwincYRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V-6fEYRFEe6NkOZJHBLUVg" position="699.0,698.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V-6fEoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V-6fE4RFEe6NkOZJHBLUVg" defaultValue="1000.0" name="minimumBalance">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8VFIIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V-6fFIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-6fFYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V-6fFoRFEe6NkOZJHBLUVg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V-6fF4RFEe6NkOZJHBLUVg" name="SavingsMaxAccount">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NJUIRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V-6fGIRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V-6fGYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V-6fGoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V-6fG4RFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NJVoRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V-6fHIRFEe6NkOZJHBLUVg" name="SavingsMaxAccount">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UwincYRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V-6fHYRFEe6NkOZJHBLUVg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NJUYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-6fHoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-6fH4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-6fIIRFEe6NkOZJHBLUVg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NJUoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-6fIYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-6fIoRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V-6fI4RFEe6NkOZJHBLUVg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8NJU4RFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V-6fJIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V-6fJYRFEe6NkOZJHBLUVg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHYVsIRFEe6NkOZJHBLUVg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V--JcIRFEe6NkOZJHBLUVg" name="Service">
+    <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHg4kYRFEe6NkOZJHBLUVg"/>
+    <visualProperties xmi:id="_V--JcYRFEe6NkOZJHBLUVg" position="1232.0,343.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V--JcoRFEe6NkOZJHBLUVg" label="+"/>
+    <attributes xmi:id="_V--Jc4RFEe6NkOZJHBLUVg" name="serviceCode">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8VsMIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V--JdIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V--JdYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V--JdoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V--Jd4RFEe6NkOZJHBLUVg" name="serviceName">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8VsMYRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V--JeIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V--JeYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V--JeoRFEe6NkOZJHBLUVg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_V--Je4RFEe6NkOZJHBLUVg" name="rate">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V8WTQIRFEe6NkOZJHBLUVg"/>
+      <visibility xmi:id="_V--JfIRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V--JfYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <type xmi:id="_V--JfoRFEe6NkOZJHBLUVg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V--Jf4RFEe6NkOZJHBLUVg" name="Service">
+      <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V7leQIRFEe6NkOZJHBLUVg"/>
+      <keywords xmi:id="_V--JgIRFEe6NkOZJHBLUVg" keyword="create"/>
+      <visibility xmi:id="_V--JgYRFEe6NkOZJHBLUVg" label="+"/>
+      <cardinality xmi:id="_V--JgoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V--Jg4RFEe6NkOZJHBLUVg">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V7mFVYRFEe6NkOZJHBLUVg"/>
+        <type xmi:id="_V--JhIRFEe6NkOZJHBLUVg" name="Service">
+          <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_UHg4kYRFEe6NkOZJHBLUVg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V--JhYRFEe6NkOZJHBLUVg" name="serviceCode">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V7mFUIRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V--JhoRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V--Jh4RFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V--JiIRFEe6NkOZJHBLUVg" name="serviceName">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V7mFUYRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V--JiYRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V--JioRFEe6NkOZJHBLUVg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V--Ji4RFEe6NkOZJHBLUVg" name="rate">
+        <modelElement href="ILP_OOAD_15112023_BANKINGASSIGNMENT_CASESTUDY.uml#_V7mFUoRFEe6NkOZJHBLUVg"/>
+        <cardinality xmi:id="_V--JjIRFEe6NkOZJHBLUVg" label="1" max="1" min="1"/>
+        <type xmi:id="_V--JjYRFEe6NkOZJHBLUVg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
